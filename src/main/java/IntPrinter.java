@@ -6,17 +6,32 @@ public class IntPrinter {
     private static int Y = 23;
 
     public static void printInt() {
+        System.out.println("\"x=" + getInt() + "\"");
+    }
+    public static int getInt(){
         int x = NUMBER_1;
-        System.out.println("\"x=" + x + "\"");
+        return x;
     }
 
     public static void printIntPair() {
-        System.out.println("\"x=" + NUMBER_X + "," + "\"y=" + NUMBER_Y + "\"");
+        System.out.println("\"x=" +  getNumberX() + "\"y=" + getNumberY() + "\"");
+    }
+    public static int getNumberX(){
+        int x = NUMBER_X;
+        return x;
+    }
+    public static int getNumberY(){
+        int y = NUMBER_Y;
+        return y;
     }
 
     public static void printIntSum() {
+        System.out.println(getSumXY());
+    }
+
+    public static int getSumXY(){
         int x = NUMBER_X + NUMBER_Y;
-        System.out.println(x);
+        return  x;
     }
 
     public static void printIntTimes() {
@@ -24,10 +39,19 @@ public class IntPrinter {
     }
 
     public static void printIntTimesZ() {
+        System.out.println(getIntZ());
+    }
+    public static int getIntX(){
         int x = X;
+        return x;
+    }
+    public static int getIntY(){
         int y = Y;
-        int z = x * y;
-        System.out.println(z);
+        return y;
+    }
+    public static int getIntZ(){
+        int z = getIntX() * getIntY();
+        return z;
     }
 
 }

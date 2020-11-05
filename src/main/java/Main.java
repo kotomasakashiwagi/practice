@@ -16,8 +16,8 @@ public class Main {
             IntPrinter.printIntTimes();
         }
         if (args[0].equals("1-6")) {
-            Calculator.xTimes3();
-            Calculator.xDivided2();
+            Calculator.printDouble(Calculator.xTimes3());
+            Calculator.printDouble(Calculator.xDivided2());
         }
         if (args[0].equals("1-7")) {
             IntPairSwitcher.intPairChange();
@@ -26,16 +26,16 @@ public class Main {
             IntPrinter.printIntTimesZ();
         }
         if (args[0].equals("1-9")) {
-            Calculator.xTimes234();
+            Calculator.printMultiplication();
         }
         if (args[0].equals("1-10")) {
-            Calculator.xExponentiation();
+            Calculator.printExponentiation();
         }
         if (args[0].equals("1-11")) {
-            Calculator.xDivideAndSurplus();
+            Calculator.printQAndR();
         }
         if (args[0].equals("1-12")) {
-            IncrementAndDecrementOperator.check();
+            IncrementAndDecrementOperator.printIncAndDec();
         }
     }
 }
