@@ -13,5 +13,8 @@ public class IntPrinter {
         int x = NUMBER_X + NUMBER_Y;
         System.out.println(x);
     }
+    public static void printIntTimes(){
+        System.out.println(13*17);
+    }
 
 }

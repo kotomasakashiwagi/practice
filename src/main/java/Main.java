@@ -13,7 +13,7 @@ public class Main {
             IntPrinter.printIntSum();
         }
         if(args[0].equals("1-5")){
-            IntPrinter.printIntPair();
+            IntPrinter.printIntTimes();
         }
         if(args[0].equals("1-6")){
             IntPrinter.printIntPair();
