@@ -9,5 +9,9 @@ public class IntPrinter {
     public static void printIntPair(){
         System.out.println("\"x="+NUMBER_X+","+"\"y="+NUMBER_Y+"\"");
     }
+    public static void printIntSum(){
+        int x = NUMBER_X + NUMBER_Y;
+        System.out.println(x);
+    }
 
 }

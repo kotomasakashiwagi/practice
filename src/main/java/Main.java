@@ -10,7 +10,7 @@ public class Main {
            IntPrinter.printIntPair();
         }
         if(args[0].equals("1-4")){
-            IntPrinter.printInt();
+            IntPrinter.printIntSum();
         }
         if(args[0].equals("1-5")){
             IntPrinter.printIntPair();
