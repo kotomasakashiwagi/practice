@@ -26,10 +26,10 @@ public class Main {
             IntPrinter.printIntTimesZ();
         }
         if (args[0].equals("1-9")) {
-            Calculator.xExponentiation();
+            Calculator.xTimes234();
         }
         if (args[0].equals("1-10")) {
-            IntPrinter.printIntPair();
+            Calculator.xExponentiation();
         }
         if (args[0].equals("1-11")) {
             IntPrinter.printIntPair();
