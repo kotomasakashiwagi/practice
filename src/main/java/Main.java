@@ -32,7 +32,7 @@ public class Main {
             Calculator.xExponentiation();
         }
         if (args[0].equals("1-11")) {
-            IntPrinter.printIntPair();
+            Calculator.xDivideAndSurplus();
         }
         if (args[0].equals("1-12")) {
             IntPrinter.printIntPair();

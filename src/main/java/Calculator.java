@@ -32,6 +32,16 @@ public class Calculator {
         double x_2 = x * 2;
         double x_3 = x * 3;
         double x_4 = x * 4;
-        System.out.println("x=" + x + "," + "xの２倍：" + x_2 + "," + "xの3倍:" + x_3 + "," + "xの4倍:" + x_4);
+        System.out.println("x=" + x + " , " + "xの２倍：" + x_2 + " , " + "xの3倍:" + x_3 + " , " + "xの4倍:" + x_4);
+    }
+
+    public static void xDivideAndSurplus() {
+        System.out.println("数値xと法yを入力してください。");
+        Scanner scan = new Scanner(System.in);
+        double x = Double.valueOf(scan.next());
+        double y = Double.valueOf(scan.next());
+        double remainder = x%y;
+        double quotient = (x-remainder)/y;
+        System.out.println(x+"/"+y+" = "+format1.format(quotient)+" 余り "+remainder);
     }
 }
