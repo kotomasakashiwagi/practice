@@ -23,7 +23,7 @@ public class Main {
             IntPairSwitcher.intPairChange(10, 20);
         }
         if (args[0].equals("1-8")) {
-            IntPrinter.printIntPair();
+            IntPrinter.printIntTimesZ();
         }
         if (args[0].equals("1-9")) {
             IntPrinter.printIntPair();
