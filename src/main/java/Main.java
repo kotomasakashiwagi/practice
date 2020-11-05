@@ -20,13 +20,13 @@ public class Main {
             Calculator.xDivided2();
         }
         if (args[0].equals("1-7")) {
-            IntPairSwitcher.intPairChange(10, 20);
+            IntPairSwitcher.intPairChange();
         }
         if (args[0].equals("1-8")) {
             IntPrinter.printIntTimesZ();
         }
         if (args[0].equals("1-9")) {
-            IntPrinter.printIntPair();
+            Calculator.xExponentiation();
         }
         if (args[0].equals("1-10")) {
             IntPrinter.printIntPair();
