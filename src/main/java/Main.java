@@ -35,7 +35,7 @@ public class Main {
             Calculator.xDivideAndSurplus();
         }
         if (args[0].equals("1-12")) {
-            IntPrinter.printIntPair();
+            IncrementAndDecrementOperator.check();
         }
     }
 }

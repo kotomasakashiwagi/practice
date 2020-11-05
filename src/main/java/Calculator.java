@@ -40,8 +40,8 @@ public class Calculator {
         Scanner scan = new Scanner(System.in);
         double x = Double.valueOf(scan.next());
         double y = Double.valueOf(scan.next());
-        double remainder = x%y;
-        double quotient = (x-remainder)/y;
-        System.out.println(x+"/"+y+" = "+format1.format(quotient)+" 余り "+remainder);
+        double remainder = x % y;
+        double quotient = (x - remainder) / y;
+        System.out.println(x + "/" + y + " = " + format1.format(quotient) + " 余り " + remainder);
     }
 }
