@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+
 import java.math.BigDecimal;
 import java.util.Scanner;
 
@@ -63,8 +64,8 @@ class CalculatorTest {
     @Test
     public void calculatorRemainder() {
         assertEquals(new BigDecimal("2.0"), Calculator.calculatorRemainder(5, 3.0));
-        assertEquals(new BigDecimal("-1.0"),Calculator.calculatorRemainder(-10,3.0));
-        assertEquals(new BigDecimal("0.1"),Calculator.calculatorRemainder(10,0.3));
+        assertEquals(new BigDecimal("-1.0"), Calculator.calculatorRemainder(-10, 3.0));
+        assertEquals(new BigDecimal("0.1"), Calculator.calculatorRemainder(10, 0.3));
     }
 
     @Test
@@ -75,13 +76,14 @@ class CalculatorTest {
     }
 
     @Test
-    public void checkIncrement(){
-        assertEquals("20",IncrementAndDecrementOperator.checkIncrement(10));
-        assertEquals("11.5",IncrementAndDecrementOperator.checkIncrement(1.5));
+    public void checkIncrement() {
+        assertEquals("20", IncrementAndDecrementOperator.checkIncrement(10));
+        assertEquals("11.5", IncrementAndDecrementOperator.checkIncrement(1.5));
     }
+
     @Test
-    public void checkDecrement(){
-        assertEquals("-10",IncrementAndDecrementOperator.checkDecrement(0));
-        assertEquals("-8.5",IncrementAndDecrementOperator.checkDecrement(1.5));
+    public void checkDecrement() {
+        assertEquals("-10", IncrementAndDecrementOperator.checkDecrement(0));
+        assertEquals("-8.5", IncrementAndDecrementOperator.checkDecrement(1.5));
     }
 }

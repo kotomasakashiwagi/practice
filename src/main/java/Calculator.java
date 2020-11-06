@@ -87,15 +87,15 @@ public class Calculator {
     public static BigDecimal calculatorRemainder(int x, double y) {
         double remainder = x % y;
         BigDecimal bd = new BigDecimal(remainder);
-        BigDecimal bd1 = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
-        return bd1;
+        BigDecimal bd_remainder = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
+        return bd_remainder;
     }
 
     public static BigDecimal calculatorQuotient(int x, double y) {
         BigDecimal x1 = new BigDecimal(x);
-        BigDecimal bd1 = x1.subtract(calculatorRemainder(x,y));
+        BigDecimal bd1 = x1.subtract(calculatorRemainder(x, y));
         BigDecimal bd2 = new BigDecimal(y);
-        BigDecimal result = bd1.divide(bd2,0,BigDecimal.ROUND_HALF_UP);
+        BigDecimal result = bd1.divide(bd2, 0, BigDecimal.ROUND_HALF_UP);
         return result;
     }
 
