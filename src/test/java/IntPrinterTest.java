@@ -10,17 +10,17 @@ public class IntPrinterTest {
 
     @Test
     public void getNumberX() {
-        assertEquals(13, IntPrinter.getNumberX());
+        assertEquals(13, IntPrinter.getNumber34X());
     }
 
     @Test
     public void getNumberY() {
-        assertEquals(17, IntPrinter.getNumberY());
+        assertEquals(17, IntPrinter.getNumber34Y());
     }
 
     @Test
     public void getSumXY() {
-        assertEquals(30, IntPrinter.getSumXY());
+        assertEquals(30, IntPrinter.sumXY());
     }
 
     @Test
@@ -35,6 +35,6 @@ public class IntPrinterTest {
 
     @Test
     public void getIntZ() {
-        assertEquals(437, IntPrinter.getIntZ());
+        assertEquals(437, IntPrinter.timesXY());
     }
 }

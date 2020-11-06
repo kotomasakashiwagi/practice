@@ -16,8 +16,8 @@ public class Main {
             IntPrinter.printIntTimes();
         }
         if (args[0].equals("1-6")) {
-            Calculator.printDouble(Calculator.xTimes3());
-            Calculator.printDouble(Calculator.xDivided2());
+            Calculator.printDouble(Calculator.times3());
+            Calculator.printDouble(Calculator.divided2(Calculator.times3()));
         }
         if (args[0].equals("1-7")) {
             IntPairSwitcher.intPairChange();

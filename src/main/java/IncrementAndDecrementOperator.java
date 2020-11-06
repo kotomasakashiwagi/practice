@@ -2,41 +2,36 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class IncrementAndDecrementOperator {
-    private static double COUNT = 10;
-    private static DecimalFormat format1 = new DecimalFormat("0.#");
+    private static final double COUNT = 10;
+    private static final DecimalFormat FORMAT_1 = new DecimalFormat("0.#");
 
     public static String checkIncrement(double x) {
-        double x_plus = x;
+        double xPlus = x;
 
         for (int i = 0; i < COUNT; i++) {
-            x_plus++;
-            //x_minus--;
+            xPlus++;
         }
-        String ans_x = format1.format(x_plus);
-        return ans_x;
+        return FORMAT_1.format(xPlus);
     }
 
     public static String checkDecrement(double x) {
 
-        double x_minus = x;
+        double xMinus = x;
         for (int i = 0; i < COUNT; i++) {
-            //x_plus++;
-            x_minus--;
+            xMinus--;
         }
-        String ans_x = format1.format(x_minus);
-        return ans_x;
+        return FORMAT_1.format(xMinus);
 
     }
 
-    public static double scannerX() {
+    public static double scanX() {
         System.out.println("数値xを入力してください。");
         Scanner scan = new Scanner(System.in);
-        double x = Double.valueOf(scan.next());
-        return x;
+        return Double.parseDouble(scan.next());
     }
 
     public static void printIncAndDec() {
-        double x = scannerX();
+        double x = scanX();
         System.out.println(checkIncrement(x) + " " + checkDecrement(x));
     }
 }

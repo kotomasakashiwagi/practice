@@ -1,7 +1,7 @@
 public class HelloWorldPrinter {
-    private static final String WORD = "hello world";
+    private static final String HELLO_WORLD = "hello world";
 
     public static void printWord() {
-        System.out.println(WORD);
+        System.out.println(HELLO_WORLD);
     }
 }

@@ -1,39 +1,39 @@
 public class IntPrinter {
-    private static int NUMBER_1 = 11;
-    private static int NUMBER_X = 13;
-    private static int NUMBER_Y = 17;
-    private static int X = 19;
-    private static int Y = 23;
+    private static final int NUMBER_2 = 11;
+    private static final int NUMBER_3_4_X = 13;
+    private static final int NUMBER_3_4_Y = 17;
+    private static final int NUMBER_8_X = 19;
+    private static final int NUMBER_8_Y = 23;
 
     public static void printInt() {
         System.out.println("\"x=" + getInt() + "\"");
     }
 
     public static int getInt() {
-        int x = NUMBER_1;
+        int x = NUMBER_2;
         return x;
     }
 
     public static void printIntPair() {
-        System.out.println("\"x=" + getNumberX() + "\"y=" + getNumberY() + "\"");
+        System.out.println("\"x=" + getNumber34X() + "\"y=" + getNumber34Y() + "\"");
     }
 
-    public static int getNumberX() {
-        int x = NUMBER_X;
+    public static int getNumber34X() {
+        int x = NUMBER_3_4_X;
         return x;
     }
 
-    public static int getNumberY() {
-        int y = NUMBER_Y;
+    public static int getNumber34Y() {
+        int y = NUMBER_3_4_Y;
         return y;
     }
 
     public static void printIntSum() {
-        System.out.println(getSumXY());
+        System.out.println(sumXY());
     }
 
-    public static int getSumXY() {
-        int x = NUMBER_X + NUMBER_Y;
+    public static int sumXY() {
+        int x = NUMBER_3_4_X + NUMBER_3_4_Y;
         return x;
     }
 
@@ -42,20 +42,20 @@ public class IntPrinter {
     }
 
     public static void printIntTimesZ() {
-        System.out.println(getIntZ());
+        System.out.println(timesXY());
     }
 
     public static int getIntX() {
-        int x = X;
+        int x = NUMBER_8_X;
         return x;
     }
 
     public static int getIntY() {
-        int y = Y;
+        int y = NUMBER_8_Y;
         return y;
     }
 
-    public static int getIntZ() {
+    public static int timesXY() {
         int z = getIntX() * getIntY();
         return z;
     }

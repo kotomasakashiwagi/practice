@@ -1,22 +1,20 @@
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
-import java.util.Scanner;
 
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //assertEquals();
 class CalculatorTest {
     @Test
-    public void xTimes3() {
-        assertEquals(21, Calculator.xTimes3());
+    public void times3() {
+        assertEquals(21, Calculator.times3());
     }
 
     @Test
-    public void xDivided2() {
-        assertEquals(3.5, Calculator.xDivided2());
+    public void divided2() {
+        assertEquals(3, Calculator.divided2(7));
     }
 
     @Test
