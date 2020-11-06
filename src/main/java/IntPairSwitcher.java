@@ -4,14 +4,19 @@ import java.util.Scanner;
 public class IntPairSwitcher {
     private static final DecimalFormat FORMAT_1 = new DecimalFormat("0.#");
 
-    public static void intPairChange() {
+    public static IntPair scanXY() {
         System.out.println("数値x,yを入力してください。");
         Scanner scan = new Scanner(System.in);
-        double x = Double.parseDouble(scan.next());
-        double y = Double.parseDouble(scan.next());
-        double a = x;
-        x = y;
-        y = a;
-        System.out.println("x=" + FORMAT_1.format(x) + ",y=" + FORMAT_1.format(y));
+        int x = Integer.parseInt(scan.next());
+        int y = Integer.parseInt(scan.next());
+        return new IntPair(x,y);
+
+    }
+    public static IntPair switchXY(IntPair intpair){
+        return new IntPair(intpair.getY(), intpair.getX());
+    }
+    public static void printSwitchXY(){
+        IntPair intPair = switchXY(scanXY());
+        System.out.println("x=" + intPair.getX() + ",y=" + intPair.getY() );
     }
 }

@@ -20,7 +20,7 @@ public class Main {
             Calculator.printDouble(Calculator.divided2(Calculator.times3()));
         }
         if (args[0].equals("1-7")) {
-            IntPairSwitcher.intPairChange();
+            IntPairSwitcher.printSwitchXY();
         }
         if (args[0].equals("1-8")) {
             IntPrinter.printIntTimesZ();
