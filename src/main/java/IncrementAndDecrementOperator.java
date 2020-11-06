@@ -4,27 +4,28 @@ import java.text.DecimalFormat;
 public class IncrementAndDecrementOperator {
     private static double COUNT = 10;
     private static DecimalFormat format1 = new DecimalFormat("0.#");
+
     public static String checkIncrement(double x) {
         double x_plus = x;
-        //double x_minus = scannerX();
+
         for (int i = 0; i < COUNT; i++) {
             x_plus++;
             //x_minus--;
         }
-        String ans_x =  format1.format(x_plus);
+        String ans_x = format1.format(x_plus);
         return ans_x;
-        //System.out.println(ans_x_plus+" "+ans_x_minus);
     }
+
     public static String checkDecrement(double x) {
-        //double x_plus = scannerX();
+
         double x_minus = x;
         for (int i = 0; i < COUNT; i++) {
             //x_plus++;
             x_minus--;
         }
-        String ans_x =  format1.format(x_minus);
+        String ans_x = format1.format(x_minus);
         return ans_x;
-        //System.out.println(ans_x_plus+" "+ans_x_minus);
+
     }
 
     public static double scannerX() {
@@ -33,8 +34,9 @@ public class IncrementAndDecrementOperator {
         double x = Double.valueOf(scan.next());
         return x;
     }
-    public static void printIncAndDec(){
+
+    public static void printIncAndDec() {
         double x = scannerX();
-        System.out.println(checkIncrement(x)+" "+checkDecrement(x));
+        System.out.println(checkIncrement(x) + " " + checkDecrement(x));
     }
 }

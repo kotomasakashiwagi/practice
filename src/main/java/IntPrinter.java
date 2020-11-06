@@ -8,19 +8,22 @@ public class IntPrinter {
     public static void printInt() {
         System.out.println("\"x=" + getInt() + "\"");
     }
-    public static int getInt(){
+
+    public static int getInt() {
         int x = NUMBER_1;
         return x;
     }
 
     public static void printIntPair() {
-        System.out.println("\"x=" +  getNumberX() + "\"y=" + getNumberY() + "\"");
+        System.out.println("\"x=" + getNumberX() + "\"y=" + getNumberY() + "\"");
     }
-    public static int getNumberX(){
+
+    public static int getNumberX() {
         int x = NUMBER_X;
         return x;
     }
-    public static int getNumberY(){
+
+    public static int getNumberY() {
         int y = NUMBER_Y;
         return y;
     }
@@ -29,9 +32,9 @@ public class IntPrinter {
         System.out.println(getSumXY());
     }
 
-    public static int getSumXY(){
+    public static int getSumXY() {
         int x = NUMBER_X + NUMBER_Y;
-        return  x;
+        return x;
     }
 
     public static void printIntTimes() {
@@ -41,15 +44,18 @@ public class IntPrinter {
     public static void printIntTimesZ() {
         System.out.println(getIntZ());
     }
-    public static int getIntX(){
+
+    public static int getIntX() {
         int x = X;
         return x;
     }
-    public static int getIntY(){
+
+    public static int getIntY() {
         int y = Y;
         return y;
     }
-    public static int getIntZ(){
+
+    public static int getIntZ() {
         int z = getIntX() * getIntY();
         return z;
     }
