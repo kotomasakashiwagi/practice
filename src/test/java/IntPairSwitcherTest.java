@@ -6,7 +6,7 @@ public class IntPairSwitcherTest {
     @Test
     public void switchXY(){
         IntPair intPair = new IntPair(10,12);
-        assertEquals(new IntPair(13,10) , IntPairSwitcher.switchXY(intPair));
+        assertEquals(new IntPair(12,10) , IntPairSwitcher.switchXY(intPair));
     }
 
 }
