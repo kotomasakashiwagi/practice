@@ -1,26 +1,25 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class IncrementAndDecrementOperator {
+public class utilityOfDouble {
     private static final double COUNT = 10;
     private static final DecimalFormat FORMAT_1 = new DecimalFormat("0.#");
 
-    public static String checkIncrement(double x) {
+    public static double increment(double x) {
         double xPlus = x;
-
         for (int i = 0; i < COUNT; i++) {
             xPlus++;
         }
-        return FORMAT_1.format(xPlus);
+        return xPlus;
     }
 
-    public static String checkDecrement(double x) {
+    public static double decrement(double x) {
 
         double xMinus = x;
         for (int i = 0; i < COUNT; i++) {
             xMinus--;
         }
-        return FORMAT_1.format(xMinus);
+        return xMinus;
 
     }
 
@@ -32,6 +31,6 @@ public class IncrementAndDecrementOperator {
 
     public static void printIncAndDec() {
         double x = scanX();
-        System.out.println(checkIncrement(x) + " " + checkDecrement(x));
+        System.out.println(increment(x) + " " + decrement(x));
     }
 }

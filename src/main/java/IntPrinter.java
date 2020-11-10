@@ -33,8 +33,7 @@ public class IntPrinter {
     }
 
     public static int sumXY() {
-        int x = NUMBER_3_4_X + NUMBER_3_4_Y;
-        return x;
+        return NUMBER_3_4_X + NUMBER_3_4_Y;
     }
 
     public static void printIntTimes() {

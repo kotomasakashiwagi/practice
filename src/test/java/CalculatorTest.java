@@ -2,7 +2,6 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //assertEquals();
@@ -15,8 +14,9 @@ class CalculatorTest {
     @Test
     public void divided2() {
         assertEquals(3, Calculator.divided2(7));
-    }
+        assertEquals(3, Calculator.divided2(6));
 
+    }
     @Test
     public void exponentiation2() {
         assertEquals(4.0, Calculator.exponentiation2(2.0));
@@ -75,13 +75,13 @@ class CalculatorTest {
 
     @Test
     public void checkIncrement() {
-        assertEquals("20", IncrementAndDecrementOperator.checkIncrement(10));
-        assertEquals("11.5", IncrementAndDecrementOperator.checkIncrement(1.5));
+        assertEquals("20", utilityOfDouble.increment(10));
+        assertEquals("11.5", utilityOfDouble.increment(1.5));
     }
 
     @Test
     public void checkDecrement() {
-        assertEquals("-10", IncrementAndDecrementOperator.checkDecrement(0));
-        assertEquals("-8.5", IncrementAndDecrementOperator.checkDecrement(1.5));
+        assertEquals("-10", utilityOfDouble.decrement(0));
+        assertEquals("-8.5", utilityOfDouble.decrement(1.5));
     }
 }

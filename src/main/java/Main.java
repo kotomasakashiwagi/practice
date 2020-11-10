@@ -1,41 +1,43 @@
 public class Main {
+
     public static void main(String[] args) {
-        if (args[0].equals("1-1")) {
-            HelloWorldPrinter.printWord();
-        }
-        if (args[0].equals("1-2")) {
+
+        if (args.length != 1) {
+            System.err.println("引数の数はひとつで問題番号である必要があります。");
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-1")) {
+            Printer.printWord();
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-2")) {
             IntPrinter.printInt();
-        }
-        if (args[0].equals("1-3")) {
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-3")) {
             IntPrinter.printIntPair();
-        }
-        if (args[0].equals("1-4")) {
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-4")) {
             IntPrinter.printIntSum();
-        }
-        if (args[0].equals("1-5")) {
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-5")) {
+            int x = 2;
             IntPrinter.printIntTimes();
-        }
-        if (args[0].equals("1-6")) {
+            //System.exit(0);//０が正常終了０以外が異常終了
+        } else if (args[0].equals("1-6")) {
             Calculator.printDouble(Calculator.times3());
             Calculator.printDouble(Calculator.divided2(Calculator.times3()));
-        }
-        if (args[0].equals("1-7")) {
+        } else if (args[0].equals("1-7")) {
             IntPairSwitcher.printSwitchXY();
-        }
-        if (args[0].equals("1-8")) {
+        } else if (args[0].equals("1-8")) {
             IntPrinter.printIntTimesZ();
-        }
-        if (args[0].equals("1-9")) {
+        } else if (args[0].equals("1-9")) {
             Calculator.printMultiplication();
-        }
-        if (args[0].equals("1-10")) {
+        } else if (args[0].equals("1-10")) {
             Calculator.printExponentiation();
-        }
-        if (args[0].equals("1-11")) {
+        } else if (args[0].equals("1-11")) {
             Calculator.printQAndR();
-        }
-        if (args[0].equals("1-12")) {
-            IncrementAndDecrementOperator.printIncAndDec();
+        } else if (args[0].equals("1-12")) {
+            utilityOfDouble.printIncAndDec();
+        } else {
+            System.err.println("問題番号を指定してください。");
         }
     }
 }

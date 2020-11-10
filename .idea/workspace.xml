@@ -49,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,17 +91,17 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="test.main" />
-      <option name="PROGRAM_PARAMETERS" value="1-11" />
+      <option name="PROGRAM_PARAMETERS" value="1-13" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntPrinterTest.getIntX" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CalculatorTest.times3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getIntX&quot;" />
+        <option name="scriptParameters" value="--tests &quot;CalculatorTest.times3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -115,12 +115,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntPrinterTest.getIntY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntPairSwitcherTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getIntY&quot;" />
+        <option name="scriptParameters" value="--tests &quot;IntPairSwitcherTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -134,12 +134,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntPrinterTest.getIntZ" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntPairSwitcherTest.switchXY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getIntZ&quot;" />
+        <option name="scriptParameters" value="--tests &quot;IntPairSwitcherTest.switchXY&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntPrinterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;IntPrinterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,31 +172,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IntPrinterTest.getNumberY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IntPrinterTest.getInt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getNumberY&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntPrinterTest.getSumXY" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getSumXY&quot;" />
+        <option name="scriptParameters" value="--tests &quot;IntPrinterTest.getInt&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -210,17 +210,19 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+    <configuration name="practice [run]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="1-1" />
+        <option name="scriptParameters" value="1-7" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value="run" />
+          </list>
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
@@ -229,21 +231,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.practice" />
       <item itemvalue="Gradle.practice [run]" />
-      <item itemvalue="Gradle.IntPrinterTest.getSumXY" />
-      <item itemvalue="Gradle.IntPrinterTest.getNumberY" />
-      <item itemvalue="Gradle.IntPrinterTest.getIntX" />
-      <item itemvalue="Gradle.IntPrinterTest.getIntY" />
-      <item itemvalue="Gradle.IntPrinterTest.getIntZ" />
+      <item itemvalue="Gradle.CalculatorTest.times3" />
+      <item itemvalue="Gradle.IntPrinterTest.getInt" />
+      <item itemvalue="Gradle.IntPrinterTest" />
+      <item itemvalue="Gradle.IntPairSwitcherTest" />
+      <item itemvalue="Gradle.IntPairSwitcherTest.switchXY" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.IntPrinterTest.getIntZ" />
-        <item itemvalue="Gradle.IntPrinterTest.getIntY" />
-        <item itemvalue="Gradle.IntPrinterTest.getNumberY" />
-        <item itemvalue="Gradle.IntPrinterTest.getSumXY" />
-        <item itemvalue="Gradle.IntPrinterTest.getIntX" />
+        <item itemvalue="Gradle.IntPairSwitcherTest" />
+        <item itemvalue="Gradle.IntPairSwitcherTest.switchXY" />
+        <item itemvalue="Gradle.IntPrinterTest" />
+        <item itemvalue="Gradle.IntPrinterTest.getInt" />
+        <item itemvalue="Gradle.CalculatorTest.times3" />
       </list>
     </recent_temporary>
   </component>
@@ -268,50 +269,103 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="23" key="#Project_Structure" timestamp="1604559837780">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="332" y="23" key="#Project_Structure" timestamp="1604993760215">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="332" y="23" key="#Project_Structure/0.23.1440.814@0.23.1440.814" timestamp="1604559837780" />
-    <state x="0" y="65" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604570822006">
+    <state x="332" y="23" key="#Project_Structure/0.23.1440.822@0.23.1440.822" timestamp="1604993760215" />
+    <state x="0" y="65" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604986479135">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="0" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1604653009416" />
+    <state x="0" y="65" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1604983843137" />
+    <state x="0" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1604627864002" />
+    <state x="0" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1604986479135" />
+    <state x="39" y="135" width="1200" height="572" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604654962050">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state x="0" y="65" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1604570822006" />
-    <state x="0" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1604554980035" />
-    <state x="0" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1604543197374" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom" timestamp="1604570803429">
+    <state x="39" y="135" width="1200" height="572" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.814@0.23.1440.814" timestamp="1604654962050" />
+    <state x="713" y="294" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604628104892">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="713" y="294" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.816@0.23.1440.816" timestamp="1604628104892" />
+    <state x="714" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604647840171">
       <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="714" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.814@0.23.1440.814" timestamp="1604647840171" />
+    <state width="1358" height="181" key="GridCell.Tab.0.bottom" timestamp="1604986480634">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604563142828" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1604570803429" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1604555436596" />
-    <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1604544015625" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center" timestamp="1604570803428">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="244" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1604641861152" />
+    <state width="1358" height="188" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1604653154503" />
+    <state width="1358" height="181" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1604983848804" />
+    <state width="1358" height="188" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1604981191469" />
+    <state width="1358" height="181" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1604986480634" />
+    <state width="1358" height="181" key="GridCell.Tab.0.center" timestamp="1604986480632">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604563142827" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1604570803428" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1604555436595" />
-    <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1604544015624" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left" timestamp="1604570803427">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="244" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1604641861152" />
+    <state width="1358" height="188" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1604653154502" />
+    <state width="1358" height="181" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1604983848803" />
+    <state width="1358" height="188" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1604981191469" />
+    <state width="1358" height="181" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1604986480632" />
+    <state width="1358" height="181" key="GridCell.Tab.0.left" timestamp="1604986480630">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604563142826" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1604570803427" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1604555436594" />
-    <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1604544015623" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right" timestamp="1604570803428">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state width="1358" height="244" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1604641861151" />
+    <state width="1358" height="188" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1604653154501" />
+    <state width="1358" height="181" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1604983848803" />
+    <state width="1358" height="188" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1604981191468" />
+    <state width="1358" height="181" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1604986480630" />
+    <state width="1358" height="181" key="GridCell.Tab.0.right" timestamp="1604986480633">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604563142827" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1604570803428" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1604555436596" />
-    <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1604544015624" />
-    <state x="747" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604560514400">
+    <state width="1358" height="244" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1604641861152" />
+    <state width="1358" height="188" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1604653154502" />
+    <state width="1358" height="181" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1604983848804" />
+    <state width="1358" height="188" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1604981191469" />
+    <state width="1358" height="181" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1604986480633" />
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom" timestamp="1604653613272">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1604641861154" />
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1604653613272" />
+    <state width="1358" height="244" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1604637521883" />
+    <state width="1358" height="244" key="GridCell.Tab.1.center" timestamp="1604653613272">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1604641861153" />
+    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1604653613272" />
+    <state width="1358" height="244" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1604637521882" />
+    <state width="1358" height="244" key="GridCell.Tab.1.left" timestamp="1604653613271">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1604641861153" />
+    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1604653613271" />
+    <state width="1358" height="244" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1604637521882" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right" timestamp="1604653613272">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1604641861153" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1604653613272" />
+    <state width="1358" height="244" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1604637521883" />
+    <state x="747" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604650008708">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="747" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.812@0.23.1440.812" timestamp="1604650008708" />
     <state x="747" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.814@0.23.1440.814" timestamp="1604560514400" />
+    <state x="747" y="202" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.816@0.23.1440.816" timestamp="1604628111171" />
+    <state x="129" y="43" key="new project wizard" timestamp="1604641804827">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="129" y="43" key="new project wizard/0.23.1440.812@0.23.1440.812" timestamp="1604641804827" />
     <state x="723" y="159" width="670" height="678" key="search.everywhere.popup" timestamp="1604563696088">
       <screen x="0" y="23" width="1440" height="814" />
     </state>

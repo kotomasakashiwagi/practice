@@ -7,13 +7,11 @@ public class Calculator {
     private static DecimalFormat format1 = new DecimalFormat("0.#");
 
     public static int times3() {
-        int x = NUMBER_6 * 3;
-        return x;
+        return NUMBER_6 * 3;
     }
 
     public static int divided2(int x) {
-        int x2 = x / 2;
-        return x2;
+        return x / 2;
     }
 
     public static void printDouble(int a) {
@@ -70,15 +68,13 @@ public class Calculator {
     public static double scanDividend() {
         System.out.println("数値xを入力してください。");
         Scanner scan = new Scanner(System.in);
-        int x = Integer.parseInt(scan.next());
-        return x;
+        return Integer.parseInt(scan.next());
     }
 
     public static double scanDivisor() {
         System.out.println("法yを入力してください。");
         Scanner scan = new Scanner(System.in);
-        double y = Double.parseDouble(scan.next());
-        return y;
+        return Double.parseDouble(scan.next());
     }
 
     public static BigDecimal calculatorRemainder(int x, double y) {

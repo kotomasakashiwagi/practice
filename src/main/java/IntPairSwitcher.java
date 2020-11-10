@@ -16,7 +16,7 @@ public class IntPairSwitcher {
         return new IntPair(intpair.getY(), intpair.getX());
     }
     public static void printSwitchXY(){
-        IntPair intPair = switchXY(scanXY());
+        IntPair intPair = scanXY().switchXY();
         System.out.println("x=" + intPair.getX() + ",y=" + intPair.getY() );
     }
 }
