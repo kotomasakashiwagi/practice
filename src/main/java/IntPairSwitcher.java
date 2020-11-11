@@ -9,14 +9,16 @@ public class IntPairSwitcher {
         Scanner scan = new Scanner(System.in);
         int x = Integer.parseInt(scan.next());
         int y = Integer.parseInt(scan.next());
-        return new IntPair(x,y);
+        return new IntPair(x, y);
 
     }
-    public static IntPair switchXY(IntPair intpair){
+
+    public static IntPair switchXY(IntPair intpair) {
         return new IntPair(intpair.getY(), intpair.getX());
     }
-    public static void printSwitchXY(){
+
+    public static void printSwitchXY() {
         IntPair intPair = scanXY().switchXY();
-        System.out.println("x=" + intPair.getX() + ",y=" + intPair.getY() );
+        System.out.println("x=" + intPair.getX() + ",y=" + intPair.getY());
     }
 }

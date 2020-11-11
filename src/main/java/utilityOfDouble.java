@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class utilityOfDouble {
+public class UtilityOfDouble {
     private static final double COUNT = 10;
     private static final DecimalFormat FORMAT_1 = new DecimalFormat("0.#");
 
@@ -23,14 +23,5 @@ public class utilityOfDouble {
 
     }
 
-    public static double scanX() {
-        System.out.println("数値xを入力してください。");
-        Scanner scan = new Scanner(System.in);
-        return Double.parseDouble(scan.next());
-    }
 
-    public static void printIncAndDec() {
-        double x = scanX();
-        System.out.println(increment(x) + " " + decrement(x));
-    }
 }

@@ -31,11 +31,11 @@ public class Main {
         } else if (args[0].equals("1-9")) {
             Calculator.printMultiplication();
         } else if (args[0].equals("1-10")) {
-            Calculator.printExponentiation();
+            Printer.printExponentiation();
         } else if (args[0].equals("1-11")) {
-            Calculator.printQAndR();
+            Printer.printQAndR();
         } else if (args[0].equals("1-12")) {
-            utilityOfDouble.printIncAndDec();
+            Printer.printIncAndDec();
         } else {
             System.err.println("問題番号を指定してください。");
         }
