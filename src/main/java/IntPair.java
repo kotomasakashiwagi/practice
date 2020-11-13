@@ -1,6 +1,5 @@
 public class IntPair {
-    private final int x;
-    private final int y;
+    private final int x,y;
 
     IntPair(int x, int y) {
         this.x = x;
